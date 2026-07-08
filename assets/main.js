@@ -218,12 +218,22 @@ async function initCV() {
     <div class="cv-body">${bodyHTML}</div>
   </div>`;
 
+  /* note: null | {en,ja} | array of {en,ja} — each note becomes its own line */
+  const cvNotes = (note) =>
+    note
+      ? (Array.isArray(note) ? note : [note])
+          .map((n) => {
+            const text = bi(n);
+            return text ? `<div class="note">${text}</div>` : "";
+          })
+          .join("")
+      : "";
+
   const render = {
     employment: (e) =>
       cvItem(
         fmtPeriod(e.start, e.end),
-        `<div>${bi(e.title)}, ${bi(e.institution)}</div>` +
-          (e.note ? `<div class="note">${bi(e.note)}</div>` : "")
+        `<div>${bi(e.title)}, ${bi(e.institution)}</div>` + cvNotes(e.note)
       ),
     education: (e) =>
       cvItem(fmtPeriod(e.start, e.end), `<div>${bi(e.degree)}, ${bi(e.institution)}</div>`),
@@ -231,13 +241,9 @@ async function initCV() {
       cvItem(
         fmtPeriod(f.start, f.end),
         `<div>${bi(f.name)}${f.amount ? ` <span class="note">(${esc(f.amount)})</span>` : ""}</div>` +
-          (f.note ? `<div class="note">${bi(f.note)}</div>` : "")
+          cvNotes(f.note)
       ),
-    awards: (a) =>
-      cvItem(
-        fmtDate(a.date),
-        `<div>${bi(a.name)}</div>` + (a.note ? `<div class="note">${bi(a.note)}</div>` : "")
-      ),
+    awards: (a) => cvItem(fmtDate(a.date), `<div>${bi(a.name)}</div>` + cvNotes(a.note)),
     teaching: (t) =>
       cvItem(
         fmtPeriod(t.start, t.end),
