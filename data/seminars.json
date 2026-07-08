@@ -1,121 +1,223 @@
 [
   {
-    "title": { "en": "Time-delay in String Scattering Amplitudes and Hawking Radiation", "ja": null },
-    "venue": { "en": "Hokkaido University", "ja": "北海道大学" },
+    "title": {
+      "en": "Time-delay in String Scattering Amplitudes and Hawking Radiation",
+      "ja": null
+    },
+    "venue": {
+      "en": "Hokkaido University",
+      "ja": "北海道大学"
+    },
     "date": "2025-10-31",
     "region": "domestic",
-    "invited": false
+    "invited": true
   },
   {
-    "title": { "en": null, "ja": "弦の散乱における実時間の遅れとブラックホールからの放射" },
-    "venue": { "en": "Saitama University", "ja": "埼玉大学" },
+    "title": {
+      "en": null,
+      "ja": "弦の散乱における実時間の遅れとブラックホールからの放射"
+    },
+    "venue": {
+      "en": "Saitama University",
+      "ja": "埼玉大学"
+    },
     "date": "2024-10-30",
     "region": "domestic",
-    "invited": false
+    "invited": true
   },
   {
-    "title": { "en": "Complex saddles and possible chaos in string scatterings", "ja": null },
-    "venue": { "en": "Caltech", "ja": null },
+    "title": {
+      "en": "Complex saddles and possible chaos in string scatterings",
+      "ja": null
+    },
+    "venue": {
+      "en": "Caltech",
+      "ja": null
+    },
     "date": "2024-02-20",
     "region": "international",
     "invited": false
   },
   {
-    "title": { "en": "Toward chaos in string scatterings", "ja": null },
-    "venue": { "en": "University of Kentucky", "ja": null },
+    "title": {
+      "en": "Toward chaos in string scatterings",
+      "ja": null
+    },
+    "venue": {
+      "en": "University of Kentucky",
+      "ja": null
+    },
     "date": "2023-11-01",
     "region": "international",
     "invited": false
   },
   {
-    "title": { "en": "Transient chaos analysis of string scattering", "ja": null },
-    "venue": { "en": "Osaka Metropolitan University", "ja": "大阪公立大学" },
+    "title": {
+      "en": "Transient chaos analysis of string scattering",
+      "ja": null
+    },
+    "venue": {
+      "en": "Osaka Metropolitan University",
+      "ja": "大阪公立大学"
+    },
     "date": "2023-06-21",
     "region": "domestic",
-    "invited": false
+    "invited": true
   },
   {
-    "title": { "en": "Transient chaos analysis of string scattering", "ja": null },
-    "venue": { "en": "QGASLAB", "ja": null },
+    "title": {
+      "en": "Transient chaos analysis of string scattering",
+      "ja": null
+    },
+    "venue": {
+      "en": "QGASLAB",
+      "ja": null
+    },
     "date": "2022-11-25",
     "region": "international",
     "invited": false
   },
   {
-    "title": { "en": "Transient chaos analysis of string scattering", "ja": null },
-    "venue": { "en": "CUNY Graduate Center", "ja": null },
+    "title": {
+      "en": "Transient chaos analysis of string scattering",
+      "ja": null
+    },
+    "venue": {
+      "en": "CUNY Graduate Center",
+      "ja": null
+    },
     "date": "2022-10-04",
     "region": "international",
     "invited": false
   },
   {
-    "title": { "en": "Transient chaos analysis of string scattering", "ja": null },
-    "venue": { "en": "Rikkyo University", "ja": "立教大学" },
+    "title": {
+      "en": "Transient chaos analysis of string scattering",
+      "ja": null
+    },
+    "venue": {
+      "en": "Rikkyo University",
+      "ja": "立教大学"
+    },
     "date": "2022-09-27",
     "region": "domestic",
-    "invited": false
+    "invited": true
   },
   {
-    "title": { "en": "New perspective for the APS index theorem", "ja": null },
-    "venue": { "en": "Osaka University", "ja": "大阪大学" },
+    "title": {
+      "en": "New perspective for the APS index theorem",
+      "ja": null
+    },
+    "venue": {
+      "en": "Osaka University",
+      "ja": "大阪大学"
+    },
     "date": "2021-12-14",
     "region": "domestic",
-    "invited": false
+    "invited": true
   },
   {
-    "title": { "en": "Quantum phase transition and Resurgence: Lessons from 3d N=4 SQED", "ja": null },
-    "venue": { "en": "Chuo University", "ja": "中央大学" },
+    "title": {
+      "en": "Quantum phase transition and Resurgence: Lessons from 3d N=4 SQED",
+      "ja": null
+    },
+    "venue": {
+      "en": "Chuo University",
+      "ja": "中央大学"
+    },
     "date": "2021-11-08",
     "region": "domestic",
-    "invited": false
+    "invited": true
   },
   {
-    "title": { "en": "Quantum phase transition and Resurgence: Lessons from 3d N=4 SQED", "ja": null },
-    "venue": { "en": "Wigner Research Centre for Physics", "ja": null },
+    "title": {
+      "en": "Quantum phase transition and Resurgence: Lessons from 3d N=4 SQED",
+      "ja": null
+    },
+    "venue": {
+      "en": "Wigner Research Centre for Physics",
+      "ja": null
+    },
     "date": "2021-10-29",
     "region": "international",
-    "invited": false
+    "invited": true
   },
   {
-    "title": { "en": "Quantum phase transition and Resurgence: Lessons from 3d N=4 SQED", "ja": null },
-    "venue": { "en": "The University of Tokyo", "ja": "東京大学" },
+    "title": {
+      "en": "Quantum phase transition and Resurgence: Lessons from 3d N=4 SQED",
+      "ja": null
+    },
+    "venue": {
+      "en": "The University of Tokyo",
+      "ja": "東京大学"
+    },
     "date": "2021-06-25",
     "region": "domestic",
-    "invited": false
+    "invited": true
   },
   {
-    "title": { "en": "Quantum phase transition and Resurgence: Lessons from 3d N=4 SQED", "ja": null },
-    "venue": { "en": "Kyoto University", "ja": "京都大学" },
+    "title": {
+      "en": "Quantum phase transition and Resurgence: Lessons from 3d N=4 SQED",
+      "ja": null
+    },
+    "venue": {
+      "en": "Kyoto University",
+      "ja": "京都大学"
+    },
     "date": "2021-06-16",
     "region": "domestic",
-    "invited": false
+    "invited": true
   },
   {
-    "title": { "en": "Quantum phase transition and Resurgence: Lessons from 3d N=4 SQED", "ja": null },
-    "venue": { "en": "Tokyo Institute of Technology", "ja": "東京工業大学" },
+    "title": {
+      "en": "Quantum phase transition and Resurgence: Lessons from 3d N=4 SQED",
+      "ja": null
+    },
+    "venue": {
+      "en": "Tokyo Institute of Technology",
+      "ja": "東京工業大学"
+    },
     "date": "2021-06-09",
     "region": "domestic",
-    "invited": false
+    "invited": true
   },
   {
-    "title": { "en": "Quantum phase transition and Resurgence: Lessons from 3d N=4 SQED", "ja": null },
-    "venue": { "en": "Shinshu University", "ja": "信州大学" },
+    "title": {
+      "en": "Quantum phase transition and Resurgence: Lessons from 3d N=4 SQED",
+      "ja": null
+    },
+    "venue": {
+      "en": "Shinshu University",
+      "ja": "信州大学"
+    },
     "date": "2021-06-08",
     "region": "domestic",
-    "invited": false
+    "invited": true
   },
   {
-    "title": { "en": "Quantum phase transition and Resurgence: Lessons from 3d N=4 SQED", "ja": null },
-    "venue": { "en": "Nagoya University", "ja": "名古屋大学" },
+    "title": {
+      "en": "Quantum phase transition and Resurgence: Lessons from 3d N=4 SQED",
+      "ja": null
+    },
+    "venue": {
+      "en": "Nagoya University",
+      "ja": "名古屋大学"
+    },
     "date": "2021-05-20",
     "region": "domestic",
-    "invited": false
+    "invited": true
   },
   {
-    "title": { "en": "Quantum phase transition and Resurgence: Lessons from 3d N=4 SQED", "ja": null },
-    "venue": { "en": "Yukawa Institute for Theoretical Physics", "ja": "基礎物理学研究所" },
+    "title": {
+      "en": "Quantum phase transition and Resurgence: Lessons from 3d N=4 SQED",
+      "ja": null
+    },
+    "venue": {
+      "en": "Yukawa Institute for Theoretical Physics",
+      "ja": "基礎物理学研究所"
+    },
     "date": "2021-05-06",
     "region": "domestic",
-    "invited": false
+    "invited": true
   }
 ]

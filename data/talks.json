@@ -10,11 +10,11 @@
   },
   {
     "title": { "en": "Machine Learning Lagrangians", "ja": null },
-    "event": { "en": "The 7th RIKEN AIP Joint Seminar on Mathematical Sciences", "ja": "第7回理研AIP数学系合同セミナー" },
+    "event": { "en": "The 7th RIKEN AIP Joint Seminar on Mathematics", "ja": "第7回理研AIP数学系合同セミナー" },
     "venue": { "en": null, "ja": "ホテル天坊" },
     "date": "2026-02-16",
     "region": "domestic",
-    "format": "oral",
+    "format": "poster",
     "invited": false
   },
   {
