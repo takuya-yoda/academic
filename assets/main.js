@@ -142,8 +142,12 @@ async function initHome() {
   ]);
 
   const affiliations = profile.affiliations
-    .map((a) => (a.url ? `<a href="${esc(a.url)}" target="_blank" rel="noopener">${bi(a.name)}</a>` : bi(a.name)))
-    .join("<br>");
+    .map((a) => {
+      const label = bi(a.name, "<br>");
+      const body = a.url ? `<a href="${esc(a.url)}" target="_blank" rel="noopener">${label}</a>` : label;
+      return `<p class="affiliation">${body}</p>`;
+    })
+    .join("");
 
   const links = profile.links
     .map((l) => `<li><a href="${esc(l.url)}" target="_blank" rel="noopener">${bi(l.name)}</a></li>`)
@@ -153,21 +157,21 @@ async function initHome() {
     <img class="portrait" src="${esc(profile.photo)}" alt="Portrait of ${esc(profile.name.en)}">
     <div class="profile-text">
       <h1>${bi(profile.name, "<br>")}</h1>
-      <p class="position">${bi(profile.position)}</p>
-      <p class="affiliation">${affiliations}</p>
-      <p class="keywords"><span class="muted">Keywords:</span> ${bi(profile.keywords)}</p>
+      <p class="position">${bi(profile.position, "<br>")}</p>
+      ${affiliations}
+      <p class="keywords"><span class="muted">Keywords:</span> ${bi(profile.keywords, "<br>")}</p>
       <ul class="profile-links">${links}</ul>
     </div>`;
 
   const emails = profile.emails
-    .map((e) => `<li><code>${esc(e.address)}</code><br><span class="muted">${bi(e.note)}</span></li>`)
+    .map((e) => `<li><code>${esc(e.address)}</code><br><span class="muted">${bi(e.note, "<br>")}</span></li>`)
     .join("");
   document.getElementById("contact-body").innerHTML = `
     <ul class="email-list">${emails}</ul>
-    <p class="email-hint">${bi(profile.email_hint)}</p>`;
+    <p class="email-hint">${bi(profile.email_hint, "<br>")}</p>`;
 
   document.getElementById("news-body").innerHTML = news
-    .map((n) => `<p class="news-item"><span class="date">${fmtDate(n.date)}</span>${bi(n.text)}</p>`)
+    .map((n) => `<p class="news-item"><span class="date">${fmtDate(n.date)}</span>${bi(n.text, "<br>")}</p>`)
     .join("");
 }
 
