@@ -25,6 +25,7 @@
   ],
   "email_hint": { "en": "Replace [10^-18] with the at sign. Institutional address may become invalid when my affiliation changes.", "ja": null },
   "links": [
-    { "name": { "en": "GitHub", "ja": null }, "url": "https://github.com/takuya-yoda" }
+    { "name": { "en": "GitHub", "ja": null }, "url": "https://github.com/takuya-yoda" },
+    { "name": { "en": "iNSPIRE HEP", "ja": null }, "url": "https://inspirehep.net/authors/1854898" }
   ]
 }
