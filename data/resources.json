@@ -67,7 +67,8 @@
         { "name": { "en": "researchseminars.org", "ja": null }, "url": "https://researchseminars.org/", "note": { "en": "Online seminar listings", "ja": null } },
         { "name": { "en": "HEP Postdoc Rumor Mill", "ja": null }, "url": "https://sites.google.com/site/postdocrumor/", "note": null },
         { "name": { "en": "Academic Jobs Online", "ja": null }, "url": "https://academicjobsonline.org/ajo", "note": null },
-        { "name": { "en": "Soryushiron Kenkyu", "ja": "素粒子論研究" }, "url": "http://www2.yukawa.kyoto-u.ac.jp/~soken.editorial/index.html", "note": null }
+        { "name": { "en": null, "ja": "アインシュタイン牧場" }, "url": "https://www2.yukawa.kyoto-u.ac.jp/~masashi.hamanaka/", "note": null },
+        { "name": { "en": null, "ja": "素粒子論研究" }, "url": "http://www2.yukawa.kyoto-u.ac.jp/~soken.editorial/index.html", "note": null }
       ]
     }
   ]

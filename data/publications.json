@@ -1,5 +1,21 @@
 [
   {
+    "title": { "en": "Rethinking quantum information in gravity and fields", "ja": null },
+    "authors": ["Kanato Goto", "Yuta Hamada", "Kohtaro Kato", "Takato Mori", "Yoshifumi Nakata", "Masataka Watanabe", "Hayata Yamasaki", "Masahito Yamazaki", "Takuya Yoda"],
+    "journal": "",
+    "year": "2026",
+    "arxiv": "2606.30853",
+    "type": "other"
+  },
+  {
+    "title": { "en": "Exponentially Long Evaporation of Noncommutative Black Hole", "ja": null },
+    "authors": ["Pei-Ming Ho", "Wei-Hsiang Shao", "Takuya Yoda"],
+    "journal": "",
+    "year": "2026",
+    "arxiv": "2604.04774",
+    "type": "paper"
+  },
+  {
     "title": { "en": "Heat and work in black hole thermodynamics via holography", "ja": null },
     "authors": ["Tomohiro Shigemura", "Keito Shimizu", "Sotaro Sugishita", "Daichi Takeda", "Takuya Yoda"],
     "journal": "JHEP 05 (2025) 069",

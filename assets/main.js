@@ -233,21 +233,25 @@ async function initCV() {
     employment: (e) =>
       cvItem(
         fmtPeriod(e.start, e.end),
-        `<div>${bi(e.title)}, ${bi(e.institution)}</div>` + cvNotes(e.note)
+        `<div>${bi(e.title)}</div><div>${bi(e.institution)}</div>` + cvNotes(e.note)
       ),
     education: (e) =>
-      cvItem(fmtPeriod(e.start, e.end), `<div>${bi(e.degree)}, ${bi(e.institution)}</div>`),
+      cvItem(
+        fmtPeriod(e.start, e.end),
+        `<div>${bi(e.degree)}</div><div>${bi(e.institution)}</div>`
+      ),
     funding: (f) =>
       cvItem(
         fmtPeriod(f.start, f.end),
-        `<div>${bi(f.name)}${f.amount ? ` <span class="note">(${esc(f.amount)})</span>` : ""}</div>` +
+        `<div>${bi(f.name)}</div>` +
+          (f.amount ? `<div class="note">${esc(f.amount)}</div>` : "") +
           cvNotes(f.note)
       ),
     awards: (a) => cvItem(fmtDate(a.date), `<div>${bi(a.name)}</div>` + cvNotes(a.note)),
     teaching: (t) =>
       cvItem(
         fmtPeriod(t.start, t.end),
-        `<div>${bi(t.role)}, ${bi(t.course)}, ${bi(t.institution)}</div>`
+        `<div>${bi(t.role)}</div><div>${bi(t.course)}</div><div>${bi(t.institution)}</div>`
       ),
   };
 
