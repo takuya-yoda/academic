@@ -152,7 +152,7 @@ async function initHome() {
   document.getElementById("profile-body").innerHTML = `
     <img class="portrait" src="${esc(profile.photo)}" alt="Portrait of ${esc(profile.name.en)}">
     <div class="profile-text">
-      <h1>${bi(profile.name)}</h1>
+      <h1>${bi(profile.name, "<br>")}</h1>
       <p class="position">${bi(profile.position)}</p>
       <p class="affiliation">${affiliations}</p>
       <p class="keywords"><span class="muted">Keywords:</span> ${bi(profile.keywords)}</p>

@@ -3,12 +3,12 @@
   "position": { "en": "Program-Specific Assistant Professor", "ja": "特定助教" },
   "affiliations": [
     {
-      "name": { "en": "Theoretical Particle Physics Group, Department of Physics, Kyoto University", "ja": "京都大学 大学院理学研究科 物理学第二教室 素粒子論研究室" },
-      "url": "http://www-gauge.scphys.kyoto-u.ac.jp/index-e.html"
+      "name": { "en": "Center for Science Adventure and Collaborative Research Advancement", "ja": "理学研究科附属サイエンス連携探索センター (SACRA)" },
+      "url": "https://www.sci.kyoto-u.ac.jp/ja/divisions/sacra/interdisciplinary/member"
     },
     {
-      "name": { "en": "Grant-in-Aid for Transformative Research Areas (A) \"Foundation of Machine Learning Physics\"", "ja": "学術変革領域研究(A)「学習物理学の創成」" },
-      "url": null
+      "name": { "en": "Theoretical Particle Physics Group, Department of Physics, Kyoto University", "ja": "京都大学 大学院理学研究科 物理学第二教室 素粒子論研究室" },
+      "url": "http://www-gauge.scphys.kyoto-u.ac.jp/index-e.html"
     }
   ],
   "keywords": { "en": "Theoretical particle physics, quantum gravity, string theory", "ja": "素粒子論，量子重力，弦理論" },
