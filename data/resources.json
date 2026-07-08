@@ -52,10 +52,6 @@
       "id": "tools",
       "title": { "en": "Useful Tools", "ja": "便利ツール" },
       "items": [
-        { "name": { "en": "Overleaf", "ja": null }, "url": "https://www.overleaf.com/", "note": { "en": "Online LaTeX editor", "ja": null } },
-        { "name": { "en": "Mathpix", "ja": null }, "url": "https://mathpix.com/", "note": { "en": "Image to LaTeX converter", "ja": null } },
-        { "name": { "en": "Connected Papers", "ja": null }, "url": "https://www.connectedpapers.com/", "note": { "en": "Visual map of related papers", "ja": null } },
-        { "name": { "en": "Academic Phrasebank", "ja": null }, "url": "https://www.phrasebank.manchester.ac.uk/", "note": { "en": "Phrases for academic writing", "ja": null } },
         { "name": { "en": "Digital Library of Mathematical Functions", "ja": null }, "url": "https://dlmf.nist.gov/", "note": null },
         { "name": { "en": "String Theory Wiki", "ja": null }, "url": "https://www.stringwiki.org/wiki/String_Theory_Wiki", "note": null },
         { "name": { "en": "The On-Line Encyclopedia of Integer Sequences", "ja": null }, "url": "https://oeis.org/", "note": null },

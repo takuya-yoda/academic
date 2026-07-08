@@ -75,7 +75,7 @@
     },
     "date": "2022-11-25",
     "region": "international",
-    "invited": false
+    "invited": true
   },
   {
     "title": {
@@ -218,6 +218,6 @@
     },
     "date": "2021-05-06",
     "region": "domestic",
-    "invited": true
+    "invited": false
   }
 ]

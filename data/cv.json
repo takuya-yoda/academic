@@ -2,9 +2,16 @@
   "employment": [
     {
       "title": { "en": "Program-Specific Assistant Professor", "ja": "特定助教" },
+      "institution": { "en": "Kyoto University Center for Science Adventure and Collaborative Research Advancement", "ja": "京都大学 理学研究科附属サイエンス連携探索センター (SACRA)" },
+      "start": "2026-03",
+      "end": null,
+      "note": { "en": "", "ja": "" }
+    },
+    {
+      "title": { "en": "Program-Specific Assistant Professor", "ja": "特定助教" },
       "institution": { "en": "Graduate School of Science, Kyoto University", "ja": "京都大学 大学院理学研究科" },
       "start": "2023-04",
-      "end": null,
+      "end": "2026-03",
       "note": { "en": "Grant-in-Aid for Transformative Research Areas (A) \"Foundation of Machine Learning Physics\"", "ja": "学術変革領域研究(A)「学習物理学の創成」" }
     }
   ],
@@ -34,6 +41,13 @@
       "start": "2022-04",
       "end": "2024-03",
       "amount": "JPY 1,700,000",
+      "note": null
+    },
+    {
+      "name": { "en": "Kyoto University Graduate Division fellow, JST SPRING Grant Number JPMJSP2110", "ja": "京都大学大学院教育支援機構奨励研究員, JST 次世代研究者挑戦的研究プログラム JPMJSP2110" },
+      "start": "2021-12",
+      "end": "2022-03",
+      "amount": "research fund JPY 133,000; stipend JPY 150,000/month",
       "note": null
     },
     {
