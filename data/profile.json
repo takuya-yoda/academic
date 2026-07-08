@@ -8,25 +8,23 @@
     },
     {
       "name": { "en": "Theoretical Particle Physics Group, Department of Physics, Kyoto University", "ja": "京都大学 大学院理学研究科 物理学第二教室 素粒子論研究室" },
-      "url": "http://www-gauge.scphys.kyoto-u.ac.jp/index-e.html"
+      "url": "https://www-gauge.scphys.kyoto-u.ac.jp/members/"
     }
   ],
-  "keywords": { "en": "Theoretical particle physics, quantum gravity, string theory", "ja": "素粒子論，量子重力，弦理論" },
+  "keywords": { "en": "Theoretical particle physics, quantum gravity, string theory", "ja": null },
   "photo": "assets/img/photo.JPG",
   "emails": [
     {
       "address": "t.yoda[10^-18]gauge.scphys.kyoto-u.ac.jp",
-      "note": { "en": "institutional address; may become invalid when my affiliation changes", "ja": "組織依存アドレス．所属変更により失効する可能性あり" }
+      "note": { "en": null, "ja": null }
     },
     {
       "address": "t.yoda.gauge[10^-18]gmail.com",
-      "note": { "en": "permanent address, independent of my affiliation; safe for long-term contact", "ja": "組織非依存の恒久アドレス．長期的な連絡にはこちらが安全" }
+      "note": { "en": null, "ja": null }
     }
   ],
-  "email_hint": { "en": "Replace [10^-18] with the at sign (atto = 10^-18).", "ja": "[10^-18] をアットマークに読み替えてください（atto = 10^-18）．" },
+  "email_hint": { "en": "Replace [10^-18] with the at sign. Institutional address may become invalid when my affiliation changes.", "ja": null },
   "links": [
-    { "name": { "en": "GitHub", "ja": null }, "url": "https://github.com/takuya-yoda" },
-    { "name": { "en": "YouTube", "ja": null }, "url": "https://www.youtube.com/channel/UCZXWT16WxKCdxwMSj0cuMLw" },
-    { "name": { "en": "Previous website (Google Sites)", "ja": null }, "url": "https://sites.google.com/view/takuyayoda/" }
+    { "name": { "en": "GitHub", "ja": null }, "url": "https://github.com/takuya-yoda" }
   ]
 }

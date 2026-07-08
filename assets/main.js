@@ -8,13 +8,15 @@ const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ESC_MAP[c]);
 /*
  * Bilingual field: { en, ja }.
  * Rule: show both in parallel when both exist; otherwise show whichever exists.
+ * Japanese text is wrapped in <span class="ja"> so CSS can optically match its size to Latin text.
  */
 function bi(field, sep = " / ") {
   if (!field) return "";
   if (typeof field === "string") return esc(field);
-  const en = field.en, ja = field.ja;
-  if (en && ja) return `${esc(en)}${sep}${esc(ja)}`;
-  return esc(en || ja || "");
+  const en = field.en ? esc(field.en) : "";
+  const ja = field.ja ? `<span class="ja" lang="ja">${esc(field.ja)}</span>` : "";
+  if (en && ja) return `${en}${sep}${ja}`;
+  return en || ja;
 }
 
 async function loadJSON(path) {
@@ -164,7 +166,10 @@ async function initHome() {
     </div>`;
 
   const emails = profile.emails
-    .map((e) => `<li><code>${esc(e.address)}</code><br><span class="muted">${bi(e.note, "<br>")}</span></li>`)
+    .map((e) => {
+      const note = bi(e.note, "<br>");
+      return `<li><code>${esc(e.address)}</code>${note ? `<br><span class="muted">${note}</span>` : ""}</li>`;
+    })
     .join("");
   document.getElementById("contact-body").innerHTML = `
     <ul class="email-list">${emails}</ul>
