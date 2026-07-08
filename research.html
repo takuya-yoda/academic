@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Research — Takuya Yoda</title>
+  <meta name="description" content="Publications, conference talks, and seminar talks by Takuya Yoda.">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-page="research">
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="site-title" href="index.html">Takuya Yoda</a>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="research.html" aria-current="page">Research</a>
+        <a href="resources.html">Resources</a>
+        <a href="cv.html">CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <h1>Research</h1>
+    <noscript><p>This page requires JavaScript. Data is available at
+      <a href="data/publications.json">publications.json</a>,
+      <a href="data/talks.json">talks.json</a>, and
+      <a href="data/seminars.json">seminars.json</a>.</p></noscript>
+
+    <section id="publications" aria-label="Publications">
+      <h2>Publications</h2>
+      <div class="filters" data-target="publications">
+        <span class="filter-group">
+          <label><input type="checkbox" data-filter="type" value="paper" checked> Papers</label>
+          <label><input type="checkbox" data-filter="type" value="other" checked> Others</label>
+        </span>
+        <span class="filter-count" data-count></span>
+      </div>
+      <div class="list" data-list></div>
+    </section>
+
+    <section id="talks" aria-label="Conference and workshop talks">
+      <h2>Conference &amp; Workshop Talks</h2>
+      <div class="filters" data-target="talks">
+        <span class="filter-group">
+          <label><input type="checkbox" data-filter="region" value="domestic" checked> Domestic</label>
+          <label><input type="checkbox" data-filter="region" value="international" checked> International</label>
+        </span>
+        <span class="filter-group">
+          <label><input type="checkbox" data-filter="format" value="oral" checked> Oral</label>
+          <label><input type="checkbox" data-filter="format" value="poster" checked> Poster</label>
+        </span>
+        <span class="filter-group">
+          <label><input type="checkbox" data-invited-only> Invited only</label>
+        </span>
+        <span class="filter-count" data-count></span>
+      </div>
+      <div class="list" data-list></div>
+    </section>
+
+    <section id="seminars" aria-label="Seminar talks">
+      <h2>Seminar Talks</h2>
+      <div class="filters" data-target="seminars">
+        <span class="filter-group">
+          <label><input type="checkbox" data-filter="region" value="domestic" checked> Domestic</label>
+          <label><input type="checkbox" data-filter="region" value="international" checked> International</label>
+        </span>
+        <span class="filter-group">
+          <label><input type="checkbox" data-invited-only> Invited only</label>
+        </span>
+        <span class="filter-count" data-count></span>
+      </div>
+      <div class="list" data-list></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">© Takuya Yoda</div>
+  </footer>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>

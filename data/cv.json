@@ -1,0 +1,78 @@
+{
+  "employment": [
+    {
+      "title": { "en": "Program-Specific Assistant Professor", "ja": "特定助教" },
+      "institution": { "en": "Graduate School of Science, Kyoto University", "ja": "京都大学 大学院理学研究科" },
+      "start": "2023-04",
+      "end": null,
+      "note": { "en": "Grant-in-Aid for Transformative Research Areas (A) \"Foundation of Machine Learning Physics\"", "ja": "学術変革領域研究(A)「学習物理学の創成」" }
+    }
+  ],
+  "education": [
+    {
+      "degree": { "en": "Ph.D. in Physics", "ja": "博士（理学）" },
+      "institution": { "en": "Graduate School of Science, Kyoto University", "ja": "京都大学 大学院理学研究科" },
+      "start": "2020-04",
+      "end": "2023-03"
+    },
+    {
+      "degree": { "en": "M.Sc. in Physics", "ja": "修士（理学）" },
+      "institution": { "en": "Graduate School of Science, Kyoto University", "ja": "京都大学 大学院理学研究科" },
+      "start": "2018-04",
+      "end": "2020-03"
+    },
+    {
+      "degree": { "en": "B.Sc.", "ja": "学士" },
+      "institution": { "en": "Faculty of Science and Technology, Keio University", "ja": "慶應義塾大学 理工学部" },
+      "start": "2015-04",
+      "end": "2018-03"
+    }
+  ],
+  "funding": [
+    {
+      "name": { "en": "JSPS Research Fellowship for Young Scientists (DC2)", "ja": "日本学術振興会 特別研究員 (DC2)" },
+      "start": "2022-04",
+      "end": "2024-03",
+      "amount": "JPY 1,700,000",
+      "note": null
+    },
+    {
+      "name": { "en": "Sasakawa Scientific Research Grant", "ja": "笹川科学研究助成" },
+      "start": "2021-04",
+      "end": "2022-02",
+      "amount": "JPY 320,000",
+      "note": null
+    }
+  ],
+  "awards": [
+    {
+      "name": { "en": "Sasakawa Science Research Encouragement Prize", "ja": "笹川科学研究奨励賞" },
+      "date": "2022-04",
+      "note": { "en": "with JPY 100,000", "ja": null }
+    },
+    {
+      "name": { "en": "Student Presentation Award, The Physical Society of Japan", "ja": "日本物理学会 学生優秀発表賞" },
+      "date": "2021-10",
+      "note": null
+    },
+    {
+      "name": { "en": "PTEP Editor's Choice", "ja": null },
+      "date": "2021-10",
+      "note": { "en": "for \"Quantum phase transition and Resurgence: Lessons from 3d N=4 SQED\"", "ja": null }
+    },
+    {
+      "name": { "en": "Poster Award", "ja": "ポスター賞" },
+      "date": "2020-08",
+      "note": { "en": "KEK Theory Center Workshop \"Thermal Quantum Field Theory and its Applications 2020\"", "ja": "KEK理論センター研究会「熱場の量子論とその応用」" }
+    }
+  ],
+  "teaching": [
+    {
+      "role": { "en": "Teaching Assistant", "ja": "ティーチング・アシスタント" },
+      "course": { "en": "Quantum Mechanics, undergraduate exercise class", "ja": "量子力学（学部演習）" },
+      "institution": { "en": "Kyoto University", "ja": "京都大学" },
+      "start": "2020-04",
+      "end": "2020-09"
+    }
+  ]
+}

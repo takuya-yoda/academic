@@ -1,0 +1,213 @@
+/* Minimal academic style — no external dependencies */
+
+:root {
+  --fg: #1c1c1c;
+  --bg: #ffffff;
+  --muted: #6b6b6b;
+  --accent: #1a4f8b;
+  --line: #e3e3e3;
+  --badge-invited: #8b3a1a;
+}
+
+* { box-sizing: border-box; }
+
+html { font-size: 16px; }
+
+body {
+  margin: 0;
+  color: var(--fg);
+  background: var(--bg);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue",
+    Arial, "Hiragino Kaku Gothic ProN", "Noto Sans JP", Meiryo, sans-serif;
+  line-height: 1.65;
+}
+
+.wrap {
+  max-width: 840px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+/* Header */
+.site-header {
+  border-bottom: 1px solid var(--line);
+}
+
+.header-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem 1rem;
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+}
+
+.site-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--fg);
+  text-decoration: none;
+}
+
+.site-nav a {
+  margin-left: 1rem;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.site-nav a:first-child { margin-left: 0; }
+
+.site-nav a[aria-current="page"] {
+  color: var(--fg);
+  font-weight: 600;
+}
+
+.site-nav a:hover { text-decoration: underline; }
+
+/* Main */
+main { padding: 1.5rem 1.25rem 3rem; }
+
+h1 { font-size: 1.5rem; margin: 0.5rem 0 1rem; }
+
+h2 {
+  font-size: 1.15rem;
+  margin: 2rem 0 0.6rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid var(--line);
+}
+
+h3.year {
+  font-size: 1rem;
+  color: var(--muted);
+  margin: 1.2rem 0 0.4rem;
+}
+
+a { color: var(--accent); }
+
+.muted { color: var(--muted); }
+
+.plain-list { padding-left: 1.2rem; margin: 0.4rem 0; }
+
+/* Profile */
+.profile {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.portrait {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+
+.profile-text h1 { margin: 0 0 0.2rem; }
+
+.profile-text .position { margin: 0 0 0.4rem; font-weight: 600; }
+
+.profile-text .affiliation { margin: 0; }
+
+.profile-text .keywords { margin: 0.6rem 0 0; }
+
+.profile-links { margin: 0.6rem 0 0; padding: 0; list-style: none; }
+
+.profile-links li { display: inline; margin-right: 1rem; }
+
+/* Contact */
+.email-list { padding-left: 1.2rem; margin: 0.4rem 0; }
+
+.email-list code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.95em;
+  background: #f4f4f4;
+  padding: 0.05em 0.35em;
+  border-radius: 3px;
+}
+
+.email-hint { font-size: 0.85rem; color: var(--muted); margin: 0.3rem 0 0; }
+
+/* News */
+.news-item { margin: 0.3rem 0; }
+.news-item .date { color: var(--muted); margin-right: 0.6rem; font-variant-numeric: tabular-nums; }
+
+/* Filters */
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem 1.2rem;
+  margin: 0.5rem 0 0.8rem;
+  font-size: 0.9rem;
+}
+
+.filter-group { display: inline-flex; gap: 0.8rem; }
+
+.filters label { cursor: pointer; user-select: none; }
+
+.filters input { vertical-align: -2px; margin-right: 0.25rem; }
+
+.filter-count { color: var(--muted); font-size: 0.85rem; margin-left: auto; }
+
+/* Item lists */
+.item { margin: 0 0 0.9rem; }
+
+.item .title { font-weight: 600; }
+
+.item .meta { font-size: 0.92rem; color: var(--muted); }
+
+.item .meta a { color: var(--accent); }
+
+.authors .me { font-weight: 600; }
+
+.badge {
+  display: inline-block;
+  font-size: 0.72rem;
+  line-height: 1.4;
+  padding: 0 0.4em;
+  margin-left: 0.45em;
+  border: 1px solid currentColor;
+  border-radius: 3px;
+  vertical-align: 1px;
+}
+
+.badge.invited { color: var(--badge-invited); }
+.badge.format, .badge.region { color: var(--muted); }
+
+/* CV */
+.cv-item {
+  display: flex;
+  gap: 1rem;
+  margin: 0 0 0.7rem;
+}
+
+.cv-period {
+  flex: 0 0 11em;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.cv-body .note { font-size: 0.92rem; color: var(--muted); }
+
+/* Resources */
+.resource-item { margin: 0 0 0.5rem; }
+.resource-item .note { font-size: 0.92rem; color: var(--muted); }
+
+/* Footer */
+.site-footer {
+  border-top: 1px solid var(--line);
+  padding: 1rem 0 2rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .cv-item { flex-direction: column; gap: 0.1rem; }
+  .cv-period { flex-basis: auto; }
+  .filter-count { margin-left: 0; }
+}

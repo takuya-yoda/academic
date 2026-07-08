@@ -1,0 +1,82 @@
+[
+  {
+    "title": { "en": "Heat and work in black hole thermodynamics via holography", "ja": null },
+    "authors": ["Tomohiro Shigemura", "Keito Shimizu", "Sotaro Sugishita", "Daichi Takeda", "Takuya Yoda"],
+    "journal": "JHEP 05 (2025) 069",
+    "year": 2025,
+    "arxiv": "2412.15697",
+    "type": "paper"
+  },
+  {
+    "title": { "en": "Complex Saddles of Truncated String Amplitudes", "ja": null },
+    "authors": ["Takuya Yoda"],
+    "journal": null,
+    "year": 2024,
+    "arxiv": "2409.10241",
+    "type": "paper"
+  },
+  {
+    "title": { "en": "Complex saddles of the Veneziano amplitude", "ja": null },
+    "authors": ["Takuya Yoda"],
+    "journal": null,
+    "year": 2023,
+    "arxiv": "2402.06153",
+    "type": "paper"
+  },
+  {
+    "title": { "en": "Visualizing quantum coherence and decoherence in nuclear reactions", "ja": null },
+    "authors": ["Kouichi Hagino", "Takuya Yoda"],
+    "journal": "Phys. Lett. B 848 (2024)",
+    "year": 2023,
+    "arxiv": "2309.10261",
+    "type": "paper"
+  },
+  {
+    "title": { "en": "Photon sphere and quasinormal modes in AdS/CFT", "ja": null },
+    "authors": ["Koji Hashimoto", "Kakeru Sugiura", "Katsuyuki Sugiyama", "Takuya Yoda"],
+    "journal": "JHEP 10 (2023) 149",
+    "year": 2023,
+    "arxiv": "2307.00237",
+    "type": "paper"
+  },
+  {
+    "title": { "en": "Transient chaos analysis of string scattering", "ja": null },
+    "authors": ["Koji Hashimoto", "Yoshinori Matsuo", "Takuya Yoda"],
+    "journal": "JHEP 11 (2022) 147",
+    "year": 2022,
+    "arxiv": "2208.08380",
+    "type": "paper"
+  },
+  {
+    "title": { "en": "String is a double slit", "ja": null },
+    "authors": ["Koji Hashimoto", "Yoshinori Matsuo", "Takuya Yoda"],
+    "journal": "Prog. Theor. Exp. Phys. (2023) 043B04",
+    "year": 2022,
+    "arxiv": "2206.10951",
+    "type": "paper"
+  },
+  {
+    "title": { "en": "String theory, N=4 SYM and Riemann hypothesis", "ja": null },
+    "authors": ["Masazumi Honda", "Takuya Yoda"],
+    "journal": null,
+    "year": 2022,
+    "arxiv": "2203.17091",
+    "type": "paper"
+  },
+  {
+    "title": { "en": "Comments on the Atiyah-Patodi-Singer index theorem, domain wall, and Berry phase", "ja": null },
+    "authors": ["Tetsuya Onogi", "Takuya Yoda"],
+    "journal": "JHEP 12 (2021) 096",
+    "year": 2021,
+    "arxiv": "2109.08274",
+    "type": "paper"
+  },
+  {
+    "title": { "en": "Quantum phase transition and Resurgence: Lessons from 3d N=4 SQED", "ja": null },
+    "authors": ["Toshiaki Fujimori", "Masazumi Honda", "Syo Kamata", "Tatsuhiro Misumi", "Norisuke Sakai", "Takuya Yoda"],
+    "journal": "Prog. Theor. Exp. Phys. (2021) 103B04",
+    "year": 2021,
+    "arxiv": "2103.13654",
+    "type": "paper"
+  }
+]

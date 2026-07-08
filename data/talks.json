@@ -1,0 +1,291 @@
+[
+  {
+    "title": { "en": "String wave packets and termination of Hawking radiation", "ja": null },
+    "event": { "en": "Concepts of Quantum and Spacetime", "ja": null },
+    "venue": { "en": "KEK", "ja": "高エネルギー加速器研究機構" },
+    "date": "2026-03-09",
+    "region": "international",
+    "format": "oral",
+    "invited": false
+  },
+  {
+    "title": { "en": "Machine Learning Lagrangians", "ja": null },
+    "event": { "en": "The 7th RIKEN AIP Joint Seminar on Mathematical Sciences", "ja": "第7回理研AIP数学系合同セミナー" },
+    "venue": { "en": null, "ja": "ホテル天坊" },
+    "date": "2026-02-16",
+    "region": "domestic",
+    "format": "oral",
+    "invited": false
+  },
+  {
+    "title": { "en": null, "ja": "弦の波束とHawking放射の強度の時間依存性" },
+    "event": { "en": null, "ja": "波束と量子基礎論研究会" },
+    "venue": { "en": "Tokyo Woman's Christian University", "ja": "東京女子大学" },
+    "date": "2026-01-20",
+    "region": "domestic",
+    "format": "oral",
+    "invited": true
+  },
+  {
+    "title": { "en": "Machine Learning Lagrangians", "ja": null },
+    "event": { "en": "Quantum100 ⊗ AI Workshop", "ja": null },
+    "venue": { "en": "University of Münster", "ja": null },
+    "date": "2025-11-12",
+    "region": "international",
+    "format": "poster",
+    "invited": false
+  },
+  {
+    "title": { "en": null, "ja": "弦の散乱振幅とHawking放射の運命" },
+    "event": { "en": "JPS 2025 Autumn Meeting", "ja": "日本物理学会2025年秋季大会" },
+    "venue": { "en": "Hiroshima University", "ja": "広島大学" },
+    "date": "2025-09-16",
+    "region": "domestic",
+    "format": "oral",
+    "invited": false
+  },
+  {
+    "title": { "en": "Tunneling time and real time path integral", "ja": null },
+    "event": { "en": "The 2nd iTHEMS–NCTS Joint Workshop", "ja": null },
+    "venue": { "en": "RIKEN Wako Campus", "ja": "理化学研究所 和光キャンパス" },
+    "date": "2025-08-18",
+    "region": "international",
+    "format": "poster",
+    "invited": false
+  },
+  {
+    "title": { "en": null, "ja": "弦の散乱振幅と解析接続" },
+    "event": { "en": null, "ja": "琵琶湖畔研究会" },
+    "venue": { "en": null, "ja": null },
+    "date": "2025-03-05",
+    "region": "domestic",
+    "format": "oral",
+    "invited": false
+  },
+  {
+    "title": { "en": "Lorentzian time-delay of string scatterings and radiation from black holes", "ja": null },
+    "event": { "en": "East Asia Joint Workshop 2024 (EAJW2024)", "ja": null },
+    "venue": { "en": "National Sun Yat-sen University", "ja": null },
+    "date": "2024-11-19",
+    "region": "international",
+    "format": "oral",
+    "invited": false
+  },
+  {
+    "title": { "en": null, "ja": "弦の散乱のカオスに向けて -弦の半古典軌道-" },
+    "event": { "en": "JPS 2024 Autumn Meeting", "ja": "日本物理学会2024年秋季大会" },
+    "venue": { "en": "Hokkaido University", "ja": "北海道大学" },
+    "date": "2024-09-17",
+    "region": "domestic",
+    "format": "oral",
+    "invited": false
+  },
+  {
+    "title": { "en": null, "ja": "弦の散乱のカオスに向けて -弦の半古典軌道-" },
+    "event": { "en": "YITP Workshop \"Strings and Fields 2024\"", "ja": "YITP研究会「場の理論と弦理論 2024」" },
+    "venue": { "en": "Yukawa Institute for Theoretical Physics", "ja": "基礎物理学研究所" },
+    "date": "2024-08-09",
+    "region": "domestic",
+    "format": "oral",
+    "invited": false
+  },
+  {
+    "title": { "en": "Toward Chaos in String Scattering Amplitudes", "ja": null },
+    "event": { "en": "Amplitudes 2024", "ja": null },
+    "venue": { "en": "Institute for Advanced Study", "ja": null },
+    "date": "2024-06-10",
+    "region": "international",
+    "format": "poster",
+    "invited": false
+  },
+  {
+    "title": { "en": null, "ja": "弦を模したファインマンダイアグラムにおけるフラクタル" },
+    "event": { "en": "JPS 2024 Spring Meeting", "ja": "日本物理学会2024年春季大会" },
+    "venue": { "en": "Online", "ja": "オンライン" },
+    "date": "2024-03-19",
+    "region": "domestic",
+    "format": "oral",
+    "invited": false
+  },
+  {
+    "title": { "en": "Toward Chaos in String Scatterings", "ja": null },
+    "event": { "en": "2024 Kanto-NTU High Energy Physics Workshop", "ja": null },
+    "venue": { "en": "Saitama University", "ja": "埼玉大学" },
+    "date": "2024-01-17",
+    "region": "international",
+    "format": "oral",
+    "invited": true
+  },
+  {
+    "title": { "en": "Toward Chaos in String Scatterings", "ja": null },
+    "event": { "en": "18th Kavli Asian Winter School", "ja": null },
+    "venue": { "en": "Yukawa Institute for Theoretical Physics", "ja": "基礎物理学研究所" },
+    "date": "2023-12-06",
+    "region": "international",
+    "format": "poster",
+    "invited": false
+  },
+  {
+    "title": { "en": "Photon sphere and quasinormal modes in AdS/CFT", "ja": null },
+    "event": { "en": "Holography 2023", "ja": null },
+    "venue": { "en": "APCTP", "ja": null },
+    "date": "2023-08-21",
+    "region": "international",
+    "format": "oral",
+    "invited": true
+  },
+  {
+    "title": { "en": null, "ja": "弦の散乱振幅の零・極とStokes現象" },
+    "event": { "en": "YITP Workshop \"Strings and Fields 2023\"", "ja": "YITP研究会「場の理論と弦理論 2023」" },
+    "venue": { "en": "Yukawa Institute for Theoretical Physics", "ja": "基礎物理学研究所" },
+    "date": "2023-08-07",
+    "region": "domestic",
+    "format": "oral",
+    "invited": false
+  },
+  {
+    "title": { "en": "Transient chaos analysis of string scattering", "ja": null },
+    "event": { "en": "JPS 2022 Autumn Meeting", "ja": "日本物理学会2022年秋季大会" },
+    "venue": { "en": "Okayama University of Science", "ja": "岡山理科大学" },
+    "date": "2022-09-07",
+    "region": "domestic",
+    "format": "oral",
+    "invited": false
+  },
+  {
+    "title": { "en": "Transient chaos analysis of string scattering", "ja": null },
+    "event": { "en": "YITP Workshop \"Strings and Fields 2022\"", "ja": "YITP研究会「場の理論と弦理論 2022」" },
+    "venue": { "en": "Yukawa Institute for Theoretical Physics", "ja": "基礎物理学研究所" },
+    "date": "2022-08-20",
+    "region": "domestic",
+    "format": "oral",
+    "invited": false
+  },
+  {
+    "title": { "en": null, "ja": "Atiyah-Patodi-Singer指数定理，ドメインウォール，Berry位相に対するコメント" },
+    "event": { "en": "JPS 2022 Spring Meeting", "ja": "日本物理学会2022年春季大会" },
+    "venue": { "en": "Online", "ja": "オンライン" },
+    "date": "2022-03-16",
+    "region": "domestic",
+    "format": "oral",
+    "invited": false
+  },
+  {
+    "title": { "en": "Quantum phase transition and Resurgence: Lessons from 3d N=4 SQED", "ja": null },
+    "event": { "en": "YITP Workshop \"QCD phase diagram and lattice QCD\"", "ja": null },
+    "venue": { "en": "Yukawa Institute for Theoretical Physics", "ja": "基礎物理学研究所" },
+    "date": "2021-10-25",
+    "region": "international",
+    "format": "oral",
+    "invited": false
+  },
+  {
+    "title": { "en": null, "ja": "超対称量子力学とAtiyah-Patodi-Singer指数定理" },
+    "event": { "en": "JPS 2021 Autumn Meeting", "ja": "日本物理学会2021年秋季大会" },
+    "venue": { "en": "Online", "ja": "オンライン" },
+    "date": "2021-09-14",
+    "region": "domestic",
+    "format": "oral",
+    "invited": false
+  },
+  {
+    "title": { "en": null, "ja": "量子相転移とリサージェンス：3次元N=4超対称QEDからの教訓" },
+    "event": { "en": "KEK Theory Center Workshop \"Thermal Quantum Field Theory and its Applications 2021\"", "ja": "KEK理論センター研究会「熱場の量子論とその応用」" },
+    "venue": { "en": "Online", "ja": "オンライン" },
+    "date": "2021-08-30",
+    "region": "domestic",
+    "format": "poster",
+    "invited": true
+  },
+  {
+    "title": { "en": null, "ja": "超対称量子力学とAtiyah–Patodi–Singer指数定理" },
+    "event": { "en": null, "ja": "原子核三者若手夏の学校2021" },
+    "venue": { "en": "Online", "ja": "オンライン" },
+    "date": "2021-08-06",
+    "region": "domestic",
+    "format": "oral",
+    "invited": false
+  },
+  {
+    "title": { "en": null, "ja": "物理屋にやさしい指数定理をもっと！もっと！" },
+    "event": { "en": null, "ja": "国内モレキュール型研究会「トポロジカル相と量子アノマリー2021」" },
+    "venue": { "en": "Yukawa Institute for Theoretical Physics", "ja": "基礎物理学研究所" },
+    "date": "2021-07-26",
+    "region": "domestic",
+    "format": "oral",
+    "invited": false
+  },
+  {
+    "title": { "en": null, "ja": "量子相転移とリサージェンス: 3次元N=4SQEDからの教訓" },
+    "event": { "en": null, "ja": "KEK 素核宇・物性連携研究会" },
+    "venue": { "en": "KEK (online)", "ja": "高エネルギー加速器研究機構（オンライン）" },
+    "date": "2021-03-29",
+    "region": "domestic",
+    "format": "poster",
+    "invited": false
+  },
+  {
+    "title": { "en": null, "ja": "3次元超対称QEDにおける量子相転移とLefschetzシンブル解析" },
+    "event": { "en": "JPS 2021 Spring Meeting", "ja": "日本物理学会2021年春季大会" },
+    "venue": { "en": "Online", "ja": "オンライン" },
+    "date": "2021-03-12",
+    "region": "domestic",
+    "format": "oral",
+    "invited": false
+  },
+  {
+    "title": { "en": "Quantum phase transition in 3dim SQED and Lefschetz thimble analysis", "ja": null },
+    "event": { "en": "The 15th Kavli Asian Winter School", "ja": null },
+    "venue": { "en": "Beijing (online)", "ja": null },
+    "date": "2021-01-18",
+    "region": "international",
+    "format": "oral",
+    "invited": false
+  },
+  {
+    "title": { "en": null, "ja": "3次元超対称QEDにおける量子相転移とLefschetz thimble解析" },
+    "event": { "en": "JPS 2020 Autumn Meeting", "ja": "日本物理学会2020年秋季大会" },
+    "venue": { "en": "Online", "ja": "オンライン" },
+    "date": "2020-09-14",
+    "region": "domestic",
+    "format": "oral",
+    "invited": false
+  },
+  {
+    "title": { "en": "Quantum phase transition in 3dim SQED and Lefschetz thimble analysis", "ja": null },
+    "event": { "en": "YITP-RIKEN iTHEMS Molecule-type Workshop 2020", "ja": null },
+    "venue": { "en": "Yukawa Institute for Theoretical Physics", "ja": "基礎物理学研究所" },
+    "date": "2020-09-07",
+    "region": "international",
+    "format": "poster",
+    "invited": false
+  },
+  {
+    "title": { "en": null, "ja": "3次元超対称QEDにおける量子相転移とLefschetz thimble解析" },
+    "event": { "en": "YITP Workshop \"Progress in Particle Physics 2020\"", "ja": "基研研究会 素粒子物理学の進展2020" },
+    "venue": { "en": "Online", "ja": "オンライン" },
+    "date": "2020-08-31",
+    "region": "domestic",
+    "format": "poster",
+    "invited": false
+  },
+  {
+    "title": { "en": null, "ja": "超対称量子力学とPhysicist-friendly APS指数定理" },
+    "event": { "en": null, "ja": "素粒子若手オンライン研究会2020" },
+    "venue": { "en": "Online", "ja": "オンライン" },
+    "date": "2020-08-26",
+    "region": "domestic",
+    "format": "oral",
+    "invited": false
+  },
+  {
+    "title": { "en": null, "ja": "3次元超対称QEDにおける量子相転移とLefschetz thimble解析" },
+    "event": { "en": "KEK Theory Center Workshop \"Thermal Quantum Field Theory and its Applications 2020\"", "ja": "KEK理論センター研究会「熱場の量子論とその応用」" },
+    "venue": { "en": "Online", "ja": "オンライン" },
+    "date": "2020-08-24",
+    "region": "domestic",
+    "format": "poster",
+    "invited": false,
+    "note": { "en": "Poster Award", "ja": "ポスター賞受賞" }
+  }
+]

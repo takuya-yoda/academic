@@ -1,0 +1,78 @@
+{
+  "sections": [
+    {
+      "id": "lectures",
+      "title": { "en": "Lecture Materials", "ja": "講義資料" },
+      "items": [
+        {
+          "name": { "en": "In preparation", "ja": "準備中" },
+          "url": null,
+          "note": { "en": "Lecture notes and exercise materials will be posted here.", "ja": null }
+        }
+      ]
+    },
+    {
+      "id": "codes",
+      "title": { "en": "Codes", "ja": "開発コード" },
+      "items": [
+        {
+          "name": { "en": "GitHub: takuya-yoda", "ja": null },
+          "url": "https://github.com/takuya-yoda",
+          "note": { "en": "Public repositories, including the source of this website.", "ja": null }
+        }
+      ]
+    },
+    {
+      "id": "institutions",
+      "title": { "en": "Related Institutions", "ja": "関連組織" },
+      "items": [
+        {
+          "name": { "en": "Department of Physics, Kyoto University", "ja": "京都大学 理学部物理学教室" },
+          "url": "http://www.scphys.kyoto-u.ac.jp/en/index_e.html",
+          "note": null
+        },
+        {
+          "name": { "en": "Theoretical Particle Physics Group, Kyoto University", "ja": "京都大学 素粒子論研究室" },
+          "url": "http://www-gauge.scphys.kyoto-u.ac.jp/index-e.html",
+          "note": null
+        },
+        {
+          "name": { "en": "Yukawa Institute for Theoretical Physics", "ja": "基礎物理学研究所" },
+          "url": "https://www.yukawa.kyoto-u.ac.jp/en-GB/",
+          "note": null
+        },
+        {
+          "name": { "en": "Faculty of Science and Technology, Keio University", "ja": "慶應義塾大学 理工学部" },
+          "url": "https://www.st.keio.ac.jp/en/",
+          "note": null
+        }
+      ]
+    },
+    {
+      "id": "tools",
+      "title": { "en": "Useful Tools", "ja": "便利ツール" },
+      "items": [
+        { "name": { "en": "Overleaf", "ja": null }, "url": "https://www.overleaf.com/", "note": { "en": "Online LaTeX editor", "ja": null } },
+        { "name": { "en": "Mathpix", "ja": null }, "url": "https://mathpix.com/", "note": { "en": "Image to LaTeX converter", "ja": null } },
+        { "name": { "en": "Connected Papers", "ja": null }, "url": "https://www.connectedpapers.com/", "note": { "en": "Visual map of related papers", "ja": null } },
+        { "name": { "en": "Academic Phrasebank", "ja": null }, "url": "https://www.phrasebank.manchester.ac.uk/", "note": { "en": "Phrases for academic writing", "ja": null } },
+        { "name": { "en": "Digital Library of Mathematical Functions", "ja": null }, "url": "https://dlmf.nist.gov/", "note": null },
+        { "name": { "en": "String Theory Wiki", "ja": null }, "url": "https://www.stringwiki.org/wiki/String_Theory_Wiki", "note": null },
+        { "name": { "en": "The On-Line Encyclopedia of Integer Sequences", "ja": null }, "url": "https://oeis.org/", "note": null },
+        { "name": { "en": "TeX Wiki", "ja": null }, "url": "https://texwiki.texjp.org/", "note": { "en": "TeX documentation in Japanese", "ja": null } },
+        { "name": { "en": "MaTeX", "ja": null }, "url": "https://github.com/szhorvat/MaTeX", "note": { "en": "LaTeX typesetting in Mathematica", "ja": null } },
+        { "name": { "en": "伝わるデザイン", "ja": null }, "url": "https://tsutawarudesign.com/", "note": { "en": "Presentation design guide in Japanese", "ja": null } }
+      ]
+    },
+    {
+      "id": "research-links",
+      "title": { "en": "Research Links", "ja": "研究関連リンク" },
+      "items": [
+        { "name": { "en": "researchseminars.org", "ja": null }, "url": "https://researchseminars.org/", "note": { "en": "Online seminar listings", "ja": null } },
+        { "name": { "en": "HEP Postdoc Rumor Mill", "ja": null }, "url": "https://sites.google.com/site/postdocrumor/", "note": null },
+        { "name": { "en": "Academic Jobs Online", "ja": null }, "url": "https://academicjobsonline.org/ajo", "note": null },
+        { "name": { "en": "Soryushiron Kenkyu", "ja": "素粒子論研究" }, "url": "http://www2.yukawa.kyoto-u.ac.jp/~soken.editorial/index.html", "note": null }
+      ]
+    }
+  ]
+}
