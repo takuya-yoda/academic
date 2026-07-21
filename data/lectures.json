@@ -1,0 +1,17 @@
+{
+  "empty": { "en": "In preparation — lecture materials will be posted here.", "ja": "準備中" },
+  "subjects": {
+    "ai-and-human-society": { "en": null, "ja": "人工知能と人間社会" }
+  },
+  "items": [
+    {
+      "year": 2026,
+      "term": { "en": "Spring", "ja": "春季" },
+      "subject": "ai-and-human-society",
+      "title": { "en": null, "ja": "統合型複合科目（統合群i）：人工知能と人間社会 YA02" },
+      "institution": { "en": "Kyoto University", "ja": "京都大学" },
+      "repo": "https://github.com/takuya-yoda/lecture-2026-ai-public",
+      "note": { "en": null, "ja": "講義ノート・スライド・Notebook（逆散乱）" }
+    }
+  ]
+}

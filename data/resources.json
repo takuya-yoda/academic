@@ -3,13 +3,7 @@
     {
       "id": "lectures",
       "title": { "en": "Lecture Materials", "ja": "講義資料" },
-      "items": [
-        {
-          "name": { "en": "In preparation", "ja": "準備中" },
-          "url": null,
-          "note": { "en": "Lecture notes and exercise materials will be posted here.", "ja": null }
-        }
-      ]
+      "items": []
     },
     {
       "id": "codes",

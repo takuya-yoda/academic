@@ -73,7 +73,7 @@ function setupFilteredList(sectionId, items, getYear, renderItem) {
     }
     const visible = items.filter(
       (it) =>
-        Object.entries(groups).every(([key, set]) => set.has(it[key])) &&
+        Object.entries(groups).every(([key, set]) => set.has(String(it[key]))) &&
         (!invitedBox || !invitedBox.checked || it.invited)
     );
     listEl.innerHTML = renderByYear(visible, getYear, renderItem);
@@ -135,6 +135,55 @@ function renderSeminar(sem) {
   </div>`;
 }
 
+function renderLecture(lec) {
+  const links = [];
+  if (lec.repo) {
+    const repo = lec.repo.replace(/\/$/, "");
+    links.push(`<a href="${esc(repo)}" target="_blank" rel="noopener">Materials (GitHub)</a>`);
+    links.push(`<a href="${esc(repo)}/archive/refs/heads/main.zip">Download all (ZIP)</a>`);
+  }
+  const meta = [bi(lec.institution), bi(lec.term)].filter(Boolean).join(" · ");
+  const note = lec.note ? `<div class="meta">${bi(lec.note)}</div>` : "";
+  return `<div class="item">
+    <div class="title">${bi(lec.title)}</div>
+    ${meta ? `<div class="meta">${meta}</div>` : ""}
+    ${note}
+    <div class="meta">${links.join(" · ")}</div>
+  </div>`;
+}
+
+/*
+ * Lecture Materials section: filter checkboxes (year, subject) are generated
+ * from the data itself so that adding a lecture only requires editing
+ * data/lectures.json.
+ */
+function renderLecturesSection(sec, lectures) {
+  const heading = `<h2>${bi(sec.title)}</h2>`;
+  if (!lectures.items.length) {
+    return `<section id="${esc(sec.id)}">${heading}
+      <p class="muted">${bi(lectures.empty)}</p>
+    </section>`;
+  }
+  const years = [...new Set(lectures.items.map((l) => l.year))].sort((a, b) => b - a);
+  const subjects = [...new Set(lectures.items.map((l) => l.subject))];
+  const subjectLabel = (s) => bi((lectures.subjects || {})[s]) || esc(s);
+  const boxes = (key, values, label) =>
+    values
+      .map(
+        (v) =>
+          `<label><input type="checkbox" data-filter="${key}" value="${esc(v)}" checked> ${label(v)}</label>`
+      )
+      .join("");
+  return `<section id="${esc(sec.id)}">${heading}
+    <div class="filters">
+      <span class="filter-group">${boxes("year", years, esc)}</span>
+      <span class="filter-group">${boxes("subject", subjects, subjectLabel)}</span>
+      <span class="filter-count" data-count></span>
+    </div>
+    <div class="list" data-list></div>
+  </section>`;
+}
+
 /* ---------- pages ---------- */
 
 async function initHome() {
@@ -193,9 +242,13 @@ async function initResearch() {
 }
 
 async function initResources() {
-  const data = await loadJSON("data/resources.json");
+  const [data, lectures] = await Promise.all([
+    loadJSON("data/resources.json"),
+    loadJSON("data/lectures.json"),
+  ]);
   document.getElementById("resources-body").innerHTML = data.sections
     .map((sec) => {
+      if (sec.id === "lectures") return renderLecturesSection(sec, lectures);
       const items = sec.items
         .map((it) => {
           const name = it.url
@@ -208,6 +261,9 @@ async function initResources() {
       return `<section id="${esc(sec.id)}"><h2>${bi(sec.title)}</h2><ul class="plain-list">${items}</ul></section>`;
     })
     .join("");
+  if (lectures.items.length) {
+    setupFilteredList("lectures", lectures.items, (l) => l.year, renderLecture);
+  }
 }
 
 async function initCV() {
