@@ -17,7 +17,7 @@
 サイト側         → data/lectures.json に1講義1エントリ → resources.html にフィルタ付きリスト描画
 ```
 
-- 資料本体は **講義ごとの公開GitHubリポジトリ** に置く (例: `takuya-yoda/lecture-qm-2026`)
+- 資料本体は **講義ごとの公開GitHubリポジトリ** に置く (例: `takuya-yoda/lecture-2026-ai-public`)
 - リストの各講義リンクの飛び先は **GitHubリポジトリページ** (ファイル一覧・Notebookプレビュー・一括ZIPダウンロードが標準機能)
 - リストは既存 **resources.html 内** の Lecture Materials セクションを拡張
 
@@ -45,7 +45,7 @@
       "subject": "quantum-mechanics",
       "title": { "en": "Quantum Mechanics I", "ja": "量子力学 I" },
       "institution": { "en": "Univ. of ...", "ja": "..." },
-      "repo": "https://github.com/takuya-yoda/lecture-qm-2026",
+      "repo": "https://github.com/takuya-yoda/lecture-2026-quantum-mechanics-public",
       "note": { "en": "Lecture notes, slides, and notebooks", "ja": "講義ノート・スライド・Notebook" }
     }
   ]
@@ -77,13 +77,77 @@
 
 ## 講義リポジトリ側の推奨規約
 
-- 命名: `lecture-<subject>-<year>` 等の一貫した命名
+- 命名: `lecture-<year>-<subject>`。公開リポジトリであることを明示する場合は末尾に `-public` を付ける
+  (例: `lecture-2026-ai-public`)
 - README に記載:
   - 講義名・年度・機関
   - 資料一覧 (ノート / スライド / Notebook)
   - 一括DL方法 (Code > Download ZIP)
 - Notebook は GitHub 上でそのままプレビュー可能。必要なら Colab リンク
   (`https://colab.research.google.com/github/<user>/<repo>/blob/main/xx.ipynb`) を README に記載
+
+## 講義資料の追加手順
+
+新しい講義資料を公開するときの手順。所要は「資料のコピー + 情報入力」程度。
+
+### 1. 公開リポジトリを作成
+
+命名規則: `lecture-<year>-<subject>`。公開用であることを明示するため末尾に `-public` を付ける。
+
+```bash
+gh repo create takuya-yoda/lecture-<year>-<subject>-public --public \
+  --description "<講義名> — <機関>, <年度> <学期>" \
+  --license mit --gitignore Python --clone
+cd lecture-<year>-<subject>-public
+gh repo edit --enable-wiki=false --enable-projects=false
+```
+
+- リポジトリ名は後から変更しない (サイトの `repo` リンクと ZIP URL が名前に依存)
+- 1ファイル100MB未満なら PDF スライドもそのままコミットしてよい
+
+### 2. 資料をコピーして README を書く
+
+- PDF ノート / スライド / Notebook をリポジトリにコピー
+- README に記載 (既存の [lecture-2026-ai-public](https://github.com/takuya-yoda/lecture-2026-ai-public) をテンプレートとして流用):
+  - 講義名・年度・学期・機関
+  - 資料一覧表 (ファイル名と内容の対応)
+  - Notebook の Colab リンク (パスに日本語を含む場合は URL エンコードする)
+  - 一括ダウンロード: Code ▸ Download ZIP と直リンク
+    `https://github.com/takuya-yoda/<repo>/archive/refs/heads/main.zip`
+  - License: 文書は CC BY 4.0、コードは MIT (LICENSE ファイル)。第三者図表の除外注記
+
+```bash
+git add -A && git commit -m "Add lecture materials"
+git -c credential.helper='!gh auth git-credential' push
+```
+
+### 3. サイトに登録
+
+`data/lectures.json` の `items` にエントリを1つ追加 (年度降順の並びは自動)。
+新しい科目なら `subjects` に表示名を1行追加。
+
+```json
+{
+  "year": 2026,
+  "term": { "en": "Spring", "ja": "春季" },
+  "subject": "<subjects のキー>",
+  "title": { "en": null, "ja": "<講義名>" },
+  "institution": { "en": "Kyoto University", "ja": "京都大学" },
+  "repo": "https://github.com/takuya-yoda/lecture-<year>-<subject>-public",
+  "note": { "en": null, "ja": "講義ノート・スライド・Notebook" }
+}
+```
+
+- `en` / `ja` は片方だけでもよい (両方あれば併記表示)
+- フィルタのチェックボックス (年度・科目) は items から自動生成されるので他の編集は不要
+
+### 4. 確認して push
+
+```bash
+python3 -m http.server  # resources.html を開き、表示・フィルタ・リンクを確認
+git add data/lectures.json && git commit -m "Add <講義名> to lecture materials"
+git -c credential.helper='!gh auth git-credential' push
+```
 
 ## 検証手順
 
