@@ -7,6 +7,15 @@
     {
       "year": 2026,
       "term": { "en": "Spring", "ja": "春季" },
+      "subject": "",
+      "title": { "en": null, "ja": null },
+      "institution": { "en": "Kyoto University - Kyoto City University of Arts", "ja": "京都大学 - 京都市立芸術大学" },
+      "repo": "https://github.com/takuya-yoda/lecture-2026-kyoto-cu-arts-public",
+      "note": { "en": null, "ja": "講義スライド" }
+    },
+    {
+      "year": 2026,
+      "term": { "en": "Spring", "ja": "春季" },
       "subject": "ai-and-human-society",
       "title": { "en": null, "ja": "統合型複合科目（統合群i）：人工知能と人間社会 YA02" },
       "institution": { "en": "Kyoto University", "ja": "京都大学" },
