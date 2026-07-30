@@ -1,15 +1,16 @@
 {
   "empty": { "en": "In preparation — lecture materials will be posted here.", "ja": "準備中" },
   "subjects": {
+    "others": { "en": null, "ja": "その他" },
     "ai-and-human-society": { "en": null, "ja": "人工知能と人間社会" }
   },
   "items": [
     {
       "year": 2026,
       "term": { "en": "Spring", "ja": "春季" },
-      "subject": "",
-      "title": { "en": null, "ja": null },
-      "institution": { "en": "Kyoto University - Kyoto City University of Arts", "ja": "京都大学 - 京都市立芸術大学" },
+      "subject": "others",
+      "title": { "en": null, "ja": "特別講義：素粒子論 あまりに非現実的しかし現実" },
+      "institution": { "en": "Kyoto University-Kyoto City University of Arts", "ja": "京都大学-京都市立芸術大学" },
       "repo": "https://github.com/takuya-yoda/lecture-2026-kyoto-cu-arts-public",
       "note": { "en": null, "ja": "講義スライド" }
     },
