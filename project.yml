@@ -1,0 +1,15 @@
+slug: academic   # プロジェクトのフォルダ名と一致．一意
+category: 42_Sites   # 親フォルダ名と一致（31_Research 等）．30→50 の移動で変えない
+title: 個人の学術 Web サイト   # プロジェクトの full タイトル
+summary: GitHub Pages で公開する経歴・業績・講義資料へのリンクの静的サイト   # 1 行．リマインドに出す
+priority: medium           # high / medium / low
+status: active             # active / waiting / postponed / done / archived
+started: 2026-07-08   # 立項日 YYYY-MM-DD．移行物は最古ファイルの日付
+deadline:
+  initial:                 # 着手時の期日．以後変えない
+  current:                 # 現在の期日．変更理由は commit メッセージに
+next: 講義資料の追加時に data/lectures.json を更新   # 次の一手．1 行の要約のみ．詳細は束内の TODO.md
+from:
+  topics: []               # 引き継いだ 20_Resources の話題 ID
+  projects: []             # 引き継いだ・由来する束の slug
+updated: 2026-10-12   # YYYY-MM-DD
