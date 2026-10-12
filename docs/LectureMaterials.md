@@ -17,7 +17,7 @@
 サイト側         → data/lectures.json に1講義1エントリ → resources.html にフィルタ付きリスト描画
 ```
 
-- 資料本体は **講義ごとの公開GitHubリポジトリ** に置く (例: `takuya-yoda/lecture-2026-ai-public`)
+- 資料本体は **講義ごとの公開GitHubリポジトリ** に置く (例: `takuya-yoda/ai-human-society-2026-public`)
 - リストの各講義リンクの飛び先は **GitHubリポジトリページ** (ファイル一覧・Notebookプレビュー・一括ZIPダウンロードが標準機能)
 - リストは既存 **resources.html 内** の Lecture Materials セクションを拡張
 
@@ -78,7 +78,7 @@
 ## 講義リポジトリ側の推奨規約
 
 - 命名: `lecture-<year>-<subject>`。公開リポジトリであることを明示する場合は末尾に `-public` を付ける
-  (例: `lecture-2026-ai-public`)
+  (例: `ai-human-society-2026-public`)
 - README に記載:
   - 講義名・年度・機関
   - 資料一覧 (ノート / スライド / Notebook)
@@ -108,7 +108,7 @@ gh repo edit --enable-wiki=false --enable-projects=false
 ### 2. 資料をコピーして README を書く
 
 - PDF ノート / スライド / Notebook をリポジトリにコピー
-- README に記載 (既存の [lecture-2026-ai-public](https://github.com/takuya-yoda/lecture-2026-ai-public) をテンプレートとして流用):
+- README に記載 (既存の [ai-human-society-2026-public](https://github.com/takuya-yoda/ai-human-society-2026-public) をテンプレートとして流用):
   - 講義名・年度・学期・機関
   - 資料一覧表 (ファイル名と内容の対応)
   - Notebook の Colab リンク (パスに日本語を含む場合は URL エンコードする)

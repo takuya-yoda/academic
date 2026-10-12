@@ -11,7 +11,7 @@
       "subject": "others",
       "title": { "en": null, "ja": "特別講義：素粒子論 あまりに非現実的しかし現実" },
       "institution": { "en": "Kyoto University-Kyoto City University of Arts", "ja": "京都大学-京都市立芸術大学" },
-      "repo": "https://github.com/takuya-yoda/lecture-2026-kyoto-cu-arts-public",
+      "repo": "https://github.com/takuya-yoda/kyotocua-2026-07-public",
       "note": { "en": null, "ja": "講義スライド" }
     },
     {
@@ -20,7 +20,7 @@
       "subject": "ai-and-human-society",
       "title": { "en": null, "ja": "統合型複合科目（統合群i）：人工知能と人間社会 YA02" },
       "institution": { "en": "Kyoto University", "ja": "京都大学" },
-      "repo": "https://github.com/takuya-yoda/lecture-2026-ai-public",
+      "repo": "https://github.com/takuya-yoda/ai-human-society-2026-public",
       "note": { "en": null, "ja": "講義ノート・スライド・Notebook（逆散乱）" }
     }
   ]
